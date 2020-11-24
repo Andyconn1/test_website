@@ -1,0 +1,1 @@
+document.getElementById("change_text").innerHTML = "Code works!";
