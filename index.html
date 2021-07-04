@@ -13,21 +13,19 @@
 
   <body>
     <form>
-      <div class="form-floating mb-3">
-        <input type="time" class="form-control" id="wakeup" placeholder="07:30:00" onChange="inputChanged()">
-        <label for="wakeup">Wake-up time</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input type="time" class="form-control" id="wake_window_1" placeholder="02:30">
-        <label for="wake_window_1">Wake Window 1</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input type="time" class="form-control" id="nap_1" placeholder="01:00">
-        <label for="nap_1">Nap 1</label>
-      </div>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" step="1" id="customRange3" value="1">
+          </div>
+          <div class="col">
+            One of two columns
+          </div>
+        </div>
 
-      <label for="customRange3" class="form-label">Example range</label>
-      <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3" value="1">
+
+
 
 
 
